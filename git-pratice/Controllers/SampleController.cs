@@ -11,7 +11,7 @@ namespace git_pratice.Controllers
         // GET: Sample
         public ActionResult Index()
         {
-            ViewData["Info"] = "Hi";
+            ViewData["Info"] = "Hello";
             return View();
         }
     }
